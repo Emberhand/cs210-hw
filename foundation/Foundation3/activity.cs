@@ -9,7 +9,10 @@ public class Activity {
 
     }
     public virtual int CalculatePace() {
-        
+
     }
-    public string CreateLabel();
+    public string GetSummary(name) {
+        string summary = $"{_date} {name} ({_length}) - Distance {CalculateDistance()} miles, Speed {CalculateSpeed()} mph, Pace {CalculatePace()} min per mile";
+        return summary;
+    }
 }
