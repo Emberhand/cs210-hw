@@ -1,8 +1,13 @@
 public class Swimming : Activity {
     private int _numberOfLaps;
 
-    public override int CalculatePace()
-    {
-        throw new NotImplementedException();
+    public override int CalculateDistance() {
+
+    }
+    public override int CalculateSpeed() {
+
+    }
+    public override int CalculatePace() {
+        
     }
 }

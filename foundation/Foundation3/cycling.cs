@@ -1,8 +1,13 @@
 public class Cycling : Activity {
     private int _speed;
 
-    public override int CalculateSpeed()
-    {
-        throw new NotImplementedException();
+    public override int CalculateDistance() {
+
+    }
+    public override int CalculateSpeed() {
+
+    }
+    public override int CalculatePace() {
+        
     }
 }
